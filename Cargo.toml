@@ -1,0 +1,16 @@
+[package]
+name = "imgui_calculator"
+version = "0.1.0"
+authors = ["Jaroslaw Weber <jaroslaw.weber@gmail.com>"]
+
+
+[dependencies]
+gfx = "0.16"
+gfx_window_glutin = "0.19"
+glium = { version = "0.19", default-features = true }
+glutin = "0.11"
+imgui = { version = "0.0.19-pre", git = "https://github.com/Gekkio/imgui-rs" }
+imgui-gfx-renderer = { version = "0.0.19-pre", git = "https://github.com/Gekkio/imgui-rs" }
+imgui-glium-renderer = { version = "0.0.19-pre", git = "https://github.com/Gekkio/imgui-rs" }
+imgui-sys = { version = "0.0.19-pre", git = "https://github.com/Gekkio/imgui-rs", features = ["gfx", "glium"] }
+meval = "0.1.0"
